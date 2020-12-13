@@ -34,6 +34,25 @@ button {
   font-size: 15px;
   border-radius: 4px;
 }
+.flex-container{
+width: 33%;
+margin:0 auto;
+padding: 150px;
+display: flex;
+flex direction: column;
+}
+.flex-container{
+  background-color: green;
+  padding: 15px;
+  color: #EBEBEB;
+}
+.work-grid{
+  display: grid;
+  grid-template-areas: work-grid work-grid;
+  grid-template-rows: auto;
+
+}
+  
 footer {
   background-color: darkblue;
   padding: 5px;
@@ -47,3 +66,9 @@ footer li {
   display: inline-block;
   padding: 0px 7px;
 }
+@media only screen and (max-width: 600){
+  grid-row: 300px 300px 300px;
+  grid-template-columns: 1fr;
+  grid-template-areas: my work;
+  "starbucks rewards redesign"
+  "San Antonio Zoo"
