@@ -38,20 +38,16 @@ button {
   border-radius: 4px;
 }
 .flex-container{
-width: 33%;
+width: 350px;
 margin:0 auto;
-padding: 150px;
+padding: 50px;
 display: flex;
 flex-direction: column;
-}
-.flex-container{
   background-color: green;
-  padding: 15px;
   color: #EBEBEB;
+  align-content: center;
 }
 .work-grid{
-  display: grid;
-  grid-template-rows: auto;
   text-align: center;
   align-content: center;
 }
@@ -68,6 +64,12 @@ footer ul {
 footer li {
   display: inline-block;
   padding: 0px 7px;
+}
+p{
+  text-align: center;
+}
+h3{
+  text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
