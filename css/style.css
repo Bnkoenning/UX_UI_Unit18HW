@@ -2,8 +2,8 @@ body {
   margin: 0;
 }
 header {
-  background-color: darkblue;
-  padding: 15px;
+  background-color: lightpink;
+  padding: auto;
 }
 header ul {
   float: right;
@@ -27,6 +27,9 @@ header p {
   background-color: #FFFFFF;
   text-align: center;
 }
+h1 {
+  text-align: center;
+}
 button {
   padding: 15px;
   background-color: darkblue;
@@ -39,7 +42,7 @@ width: 33%;
 margin:0 auto;
 padding: 150px;
 display: flex;
-flex direction: column;
+flex-direction: column;
 }
 .flex-container{
   background-color: green;
@@ -48,13 +51,13 @@ flex direction: column;
 }
 .work-grid{
   display: grid;
-  grid-template-areas: work-grid work-grid;
   grid-template-rows: auto;
-
+  text-align: center;
+  align-content: center;
 }
   
 footer {
-  background-color: darkblue;
+  background-color:lightpink;
   padding: 5px;
   color: white;
 }
@@ -66,9 +69,11 @@ footer li {
   display: inline-block;
   padding: 0px 7px;
 }
-@media only screen and (max-width: 600){
-  grid-row: 300px 300px 300px;
-  grid-template-columns: 1fr;
-  grid-template-areas: my work;
-  "starbucks rewards redesign"
-  "San Antonio Zoo"
+
+@media only screen and (max-width: 600px) {
+body{
+  grid-row : 300px 300px 300px;
+  grid-template-columns : 1fr;
+  grid-template-areas : my work;
+}
+}
